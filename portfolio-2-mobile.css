@@ -1,0 +1,114 @@
+*{
+
+}
+body{
+    background-color: lemonchiffon;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+[class*="col-"]{
+    width: 100%;
+}
+.full-container{
+   
+    margin: 5% 2%;
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px;
+    box-shadow: 0 4px 16px 4px gray;
+    
+}
+/*header menu design starts from here*/
+.head-h1 h1{
+    display: inline;
+}
+.head-h1{
+    padding: 30px 0;
+}
+.head-link a{
+    padding: 20px 0;
+    width: 100%;
+    float: left;
+    color: blue;
+}
+.head-link a:hover{
+    font-size: 20px;
+}
+.contact-btn{
+    margin: 10px 0;
+    background-color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    border:1px solid blue;
+}
+.contact-btn:hover{
+    font-size: 15px;
+}
+.header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*header menu design ends from here*/
+
+
+/*body design starts from here*/
+.body{
+    margin-top: 20px;
+    padding: 40px 0;
+    padding-bottom: 0;
+    position: relative;
+}
+.left{
+    height: 180px;
+}
+.text{
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+}
+.hire-me{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px;
+}
+.hire-me:hover{
+    background-color: gray;
+}
+.icons i:hover{
+    color: gray;
+}
+.icons i{
+    font-size: 40px;
+    padding: 15px;
+    color: blue;
+}
+.circle{
+    position: absolute;
+    background-color: blue;
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    float: right;
+    top: 0px;
+    left: 230px;
+}
+.photo{
+    float: right;
+}
+
+.body::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*body design ends from here*/
